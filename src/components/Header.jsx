@@ -48,7 +48,7 @@ const Header = () => {
       </div>
 
       {/* Right — Status + Social */}
-      <div className="flex flex-row md:flex-col items-end gap-4 shrink-0">
+      <div className="flex flex-row md:flex-col items-end gap-36 md:gap-4 shrink-0 mt-4 md:mt-0">
 
         {/* Status Badge */}
         <div className="flex items-center gap-2 bg-green-50 border border-green-200 px-3 py-1.5 rounded-full">

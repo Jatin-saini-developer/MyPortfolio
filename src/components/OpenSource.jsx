@@ -3,7 +3,7 @@ import ContributionCard from "../cards/ContributionCard"
 
 const OpenSource = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 px-4 md:px-0">
 
       {/* Heading — same style as Projects section */}
       <div className="mb-8">

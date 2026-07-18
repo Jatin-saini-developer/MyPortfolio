@@ -4,7 +4,7 @@ import ProjectCard from "../cards/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 px-4 md:px-0">
       <div className="mb-8">
         <span className="bg-black text-white px-3 py-1 rounded-md text-sm">
           My Projects

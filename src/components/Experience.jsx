@@ -3,7 +3,7 @@ import ExperienceCard from "../cards/ExperienceCard"
 
 const Experience = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 px-4 md:px-0">
 
       {/* Heading — same style as baaki sections */}
       <div className="mb-8">

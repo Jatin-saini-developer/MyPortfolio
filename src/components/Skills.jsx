@@ -1,7 +1,7 @@
 const skills = [
   {
     category: "Frontend",
-    items: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Redux Toolkit"]
+    items: ["React", "TypeScript", "Tailwind CSS", "Redux Toolkit"]
   },
   {
     category: "Backend",
@@ -15,7 +15,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="py-10">
+    <section className="py-10 px-4 md:px-0">
       <h2 className="text-2xl font-bold tracking-tight mb-8">Skills</h2>
 
       <div className="flex flex-col gap-6">

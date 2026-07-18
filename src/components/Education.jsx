@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 const Education = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 px-4 md:px-0">
 
       {/* Heading */}
       <div className="mb-8">
