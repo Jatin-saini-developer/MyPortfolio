@@ -1,4 +1,4 @@
-import { contributions } from "../data/contributions"
+import { contributions } from "../data/Contributions"
 import ContributionCard from "../cards/ContributionCard"
 
 const OpenSource = () => {
