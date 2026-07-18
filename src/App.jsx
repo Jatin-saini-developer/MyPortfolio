@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import Education from './components/Education'
 import Experience from './components/Experience'
 import Header from './components/Header'
 import OpenSource from './components/OpenSource'
@@ -16,6 +17,7 @@ function App() {
         <Skills/>
         <Projects/>
         <OpenSource/>
+        <Education/>
 
       </div>
     </>

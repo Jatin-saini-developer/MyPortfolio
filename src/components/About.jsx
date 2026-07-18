@@ -2,25 +2,17 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-      <h2>
-        Full-Stack Developer with a focus on AI-powered products.</h2>
-      <p>
-         I build
-        end-to-end web applications using the MERN stack with TypeScript, and
-        I'm currently going deep into Generative AI — working with RAG
-        pipelines, LangChain, vector databases, and the Gemini API to build
-        intelligent, context-aware systems. My projects aren't just CRUD apps.
-        I've built a Medical Research Assistant that pulls from PubMed,
-        OpenAlex, and ClinicalTrials.gov using a custom RAG pipeline, and an AI
-        Thumbnail Generator SaaS with credit-based billing and JWT auth — both
-        deployed and production-ready. I'm a B.Sc. Mathematics graduate who got
-        into software by building things independently, and I care about
-        shipping products that actually solve problems — not just writing code
-        for the sake of it. Currently exploring agentic AI patterns, LangSmith
-        for observability, and how LLMs can be integrated into real developer
-        workflows.
+    <div className="mb-8">
+      <h1 className="text-2xl font-bold text-gray-900">About</h1>
+      <p className="text-gray-600 text-sm md:text-base mt-3 leading-relaxed">
+        Full-stack engineer specialising in the MERN stack with TypeScript,
+        currently going deep into applied AI — building{" "}
+        <a href="https://dev-onboard.vercel.app" className="text-gray-900 font-medium underline">
+          DevOnboard
+        </a>
+        , a workflow automation platform with React Flow, and Node.js,.
+        I care about shipping real products, not just writing code.
+        Currently exploring agentic AI, RAG, Fine Tuning, Langchain, LangGraph.
       </p>
     </div>
   );
